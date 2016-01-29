@@ -1,0 +1,5 @@
+*/10 * * * * root perl /data/flow2mysql/flowtomysql.pl
+59 23 * * * root perl /data/flow2mysql/ipupdate.pl
+1 0 * * * root perl /data/flow2mysql/tablecreate.pl
+0 0 * * 1 root perl /data/flow2mysql/cleanweek.pl
+0 0 1 * * root perl /data/flow2mysql/cleanmonth.pl
